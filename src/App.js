@@ -4,9 +4,11 @@ import CodeEditor from "./modules/Text_pane/CodeEditor"
 class App extends Component {
   render() {
     return (
-      <CodeEditor></CodeEditor>
+      <div>
+        <CodeEditor></CodeEditor>
+      </div>
     );
-  }
-}
+  };
+};
 
 export default App;
